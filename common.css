@@ -1,0 +1,287 @@
+/************* Data table pagination starts ***********************/
+.ui-paginator-bottom {
+	border: none;
+	background: none;
+}
+
+.ui-paginator-current {
+	color: black;
+}
+
+.ui-paginator-page {
+	border-radius: 0;
+	border: thin solid #d9d9d9 !important;		
+	background: none !important;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.ui-paginator-first, .ui-paginator-prev, .ui-paginator-next, .ui-paginator-last {
+	background: none !important;
+    border-radius: 0 !important;
+    border: thin solid #d9d9d9 !important;
+  	line-height: 35px;
+    width: 35px;
+    height: 35px;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.ui-paginator-next > .ui-icon-seek-next{
+	color: #00677f !important;
+}
+
+.ui-paginator-pages {
+	padding: 0px !important;
+    margin: 0px !important;
+}
+
+.ui-paginator-first span, .ui-paginator-prev span, .ui-paginator-next span, .ui-paginator-last span {
+	/* color: black !important; */
+    text-indent: inherit !important;
+    background-image: none !important;
+	display: none;
+}
+
+.ui-paginator-first::before	 {
+	    content: "\f048";
+	    font-family: 'FontAwesome' !important;
+}
+
+.ui-paginator-prev::before	 {
+	    content: "\f04a";
+	    font-family: 'FontAwesome' !important;
+}
+
+.ui-paginator-next::before	 {
+	    content: "\f04e";
+	    font-family: 'FontAwesome' !important;
+}
+
+.ui-paginator-last::before	 {
+	    content: "\f051";
+	    font-family: 'FontAwesome' !important;
+}
+
+.ui-paginator-pages .ui-state-active {
+	color: white;
+	background: #00677f !important;	
+}
+
+.ui-paginator-rpp-options {
+	background: none !important;
+    border-radius: 0 !important;
+    border: thin solid #d9d9d9 !important;
+    height: 35px;
+} 
+
+/************* Data table pagination ends ***********************/
+
+
+/**************  Button CSS Starts ********************/
+
+/* .ui-button-text-only {
+	background: #00677f !important;
+    border: none !important;
+    color: white !important;
+    padding: 8px 15px;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    font-family: corpoS !important;
+    float: right !important;
+    margin-top: 10px !important;
+    margin-right: 15px !important;
+    border-radius: 3px;
+    padding: 8px 15px;
+    min-width: 170px !important;
+    height: 40px !important;
+} */
+
+.primary-button-firstPriority {
+	background: #00677f !important;
+	border: none !important;
+    color: white !important;
+    text-align: center !important;
+    display: inline-block !important;
+    border-radius: 3px;
+    min-width: 170px !important;
+    height: 40px !important;
+}
+
+.primary-button-secondPriority {
+	background: #BCBCC0 !important;
+	border: none !important;
+    color: white !important;
+    text-align: center !important;
+    display: inline-block !important;
+    border-radius: 3px;
+    min-width: 170px !important;
+    height: 40px !important;
+}
+
+.secondary-button {
+    background: white !important;
+    border: 1.5px solid #2e6e9e !important;
+    color: #2e6e9e !important;
+    text-align: center !important;
+    display: inline-block !important;
+    border-radius: 3px;
+    min-width: 170px !important;
+    height: 40px !important;
+}
+
+/**************  Button CSS ends********************/
+
+/**************  Background ********************/
+
+.background_rgb_235_238_241 {
+	background: rgb(235, 238, 241);	
+}
+
+.background_rgb_250_250_250 {
+	background: rgb(250, 250, 250) !important;	
+}
+
+.background_rgb_236_236_237 {
+	background: rgb(236, 236, 237);	
+}
+
+
+.background_rgb_255_255_255 {
+	background: rgb(255, 255, 255) !important;	;	
+}
+/**************  Font size ***********************/
+.font_size_25px {
+	font-size: 25px !important;
+}
+/************************************************/
+
+.float_right {
+	float: right;
+}
+
+.float_left {
+	float: left;
+}
+
+.margin_top_30px {
+	margin-top: 30px;
+}
+
+.margin_top_7px {
+	margin-top: 7px;
+}
+
+.margin_top_5px {
+	margin-top: 5px;
+}
+
+.margin_left_30px {
+	margin-left: 30px;
+}
+
+.display_none {
+	display: none;
+}
+
+.cursor_pointer {
+	cursor: pointer;
+}
+
+.ui-filter-column ::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.padding_top_15px {
+	padding-top: 15px;
+}
+
+.width_200px {
+	width: 200px;
+}
+
+.margin_left_5px {
+	margin-left: 5px;
+}
+
+.label_ellipsis {
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/************** @shanish Override p:message and p:tooltip CSS ***********************/
+
+.ui-messages-error-icon, .ui-message-error {
+	background:none !important;
+	color: white !important;
+	border: 0 !important;
+}
+
+.ui-messages-error-icon, .ui-message-error-icon {
+	background-position: 20px 10px !important;
+}
+
+.ui-message-error-icon:before {
+	content: "\f06a";
+    font-family: FontAwesome;
+    color: red;
+}
+
+.ui-messages-error-icon:before {
+	content: "\f06a";
+    font-family: FontAwesome;
+    color: red;	
+}
+
+.ui-messages-error, .ui-message-error {
+	padding: 0 !important;
+}
+
+.ui-message-icon-only {
+	display: inline-flex !important;
+}
+
+.ui-state-error {
+	border-color : red !important;
+}
+
+.ui-tooltip .ui-tooltip-text {
+	color: #fff !important;
+    background-color: red !important;
+    border-color: #eed3d7 !important;
+}
+
+.ui-tooltip-right .ui-tooltip-arrow {
+    border-right-color: red !important;
+}
+
+.ui-tooltip-left .ui-tooltip-arrow {
+    border-right-color: red !important;
+} 
+
+.ui-shadow {
+	box-shadow: none !important;
+}
+
+/****************************************************************/
+
+.display-block {
+	display: block;
+}
+
+.lbl-top-margin {
+	margin-top: 25px;
+}
+
+.lft-ryt-margin {
+	margin-left: 5px;
+	margin-right: 5px;
+}
